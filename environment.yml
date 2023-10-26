@@ -8,3 +8,5 @@ dependencies:
 - sparqlwrapper =2.0.0
 - matplotlib =3.4.3
 - papermill
+- rdflib
+- ipykernel

@@ -1,3 +1,5 @@
+__pycache__/
+pyiron_tensile_test/__pycache__/
 token.txt
 testnotebook.ipynb
 _toc.yml
