@@ -5,3 +5,4 @@ pyiron.db
 pyiron.log
 *_analysis/
 .ipynb_checkpoints/
+nohup.out
