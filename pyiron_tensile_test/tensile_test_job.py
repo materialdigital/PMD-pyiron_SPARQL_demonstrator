@@ -61,7 +61,6 @@ class TensileJob(PythonTemplateJob):
         
     def query_cross_section_area(self):
         sparql = SPARQLWrapper(self.endpoint)
-        sparql.addCustomHttpHeader(httpHeaderName="Authorization", httpHeaderValue=self.access_token)
         sparql.setReturnFormat("json")
         
         sparql.addCustomHttpHeader(httpHeaderName="Authorization", httpHeaderValue=self.access_token)
